@@ -3,6 +3,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
 from Database.db_setup import engine
+from Routers import auth
 from orm_class import orm_models
 
 app = FastAPI()
@@ -26,4 +27,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# uvicorn main:app --reload --host 172.18.100.50 --port 7979
+app.include_router(auth.router)
+# uvicorn main:app --reload --host 172.18.100.54 --port 7979

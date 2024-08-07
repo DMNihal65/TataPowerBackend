@@ -68,7 +68,6 @@ class DocumentApproval(Base):
     document = relationship('Document', back_populates='document_approvals')
     approver = relationship('User', back_populates='document_approvals')
 
-
 class User(Base):
     __tablename__ = 'user'
 
@@ -76,6 +75,7 @@ class User(Base):
     username = Column(String, unique=True)
     email = Column(String, unique=True)
     role = Column(String)
+    password = Column(String)  # Ensure the password field is included
     created_at = Column(TIMESTAMP(timezone=False), default=func.now())
     updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())
 
