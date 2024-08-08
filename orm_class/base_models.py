@@ -52,4 +52,4 @@ class CreateUser(BaseModel):
 
 
 class TokenData(BaseModel):
-    id: Optional[int] = None
+    username: str

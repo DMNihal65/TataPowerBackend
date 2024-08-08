@@ -68,6 +68,7 @@ class DocumentApproval(Base):
     document = relationship('Document', back_populates='document_approvals')
     approver = relationship('User', back_populates='document_approvals')
 
+
 class User(Base):
     __tablename__ = 'user'
 
@@ -81,6 +82,7 @@ class User(Base):
 
     document_approvals = relationship('DocumentApproval', back_populates='approver')
     notifications = relationship('Notification', back_populates='user')
+    user_logs = relationship('UserLogs', back_populates='user')
 
 
 class Notification(Base):
@@ -104,3 +106,15 @@ class PartNumberDocument(Base):
 
     part_number = relationship('PartNumber', back_populates='part_number_documents')
     document = relationship('Document', back_populates='part_number_documents')
+
+
+class UserLogs(Base):
+    __tablename__ = 'user_logs'
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey('user.id'))
+    username = Column(String)  # Add this field
+    email = Column(String)  # Add this field
+    login_timestamp = Column(TIMESTAMP(timezone=False), default=func.now())
+
+    user = relationship('User', back_populates='user_logs')
