@@ -1,17 +1,19 @@
 from datetime import datetime
 
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
 
 
 class FolderResponse(BaseModel):
     id: int
     name: str
+    parent_id: Optional[int] = None
     description: Optional[str] = None
     requires_validity: bool
     is_mandatory: bool
     created_at: str  # Ensure this is a string in ISO format
     updated_at: str  # Ensure this is a string in ISO format
+
 
     class Config:
         orm_mode = True
@@ -28,3 +30,27 @@ class PartNumberResponse(BaseModel):
 
     class Config:
         from_attributes = True  # Use from_attributes instead of orm_mode in Pydantic V2
+
+
+class DocumentResponse(BaseModel):
+    file_path: str
+    part_number_ids: List[int]
+    document_id: int
+    folder_id: int  # Add folder_id to the response model
+    part_numbers: List[str]  # Add part_numbers to the response model
+
+class FilePathResponse(BaseModel):
+    file_path: str
+
+    class Config:
+        orm_mode = True
+
+class FolderDetailResponse(BaseModel):
+    id: int
+    name: str
+    created_at: str
+    updated_at: str
+    file_paths: List[FilePathResponse]
+
+    class Config:
+        orm_mode = True

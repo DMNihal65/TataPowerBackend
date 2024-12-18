@@ -1,0 +1,1730 @@
+[
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "isExtraImport": true,
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "isExtraImport": true,
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "isExtraImport": true,
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUser",
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "isExtraImport": true,
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderMaster",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumber",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderMaster",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderMaster",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumber",
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "isExtraImport": true,
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security.oauth2",
+        "description": "fastapi.security.oauth2",
+        "isExtraImport": true,
+        "detail": "fastapi.security.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2",
+        "importPath": "Auth",
+        "description": "Auth",
+        "isExtraImport": true,
+        "detail": "Auth",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "importPath": "Auth",
+        "description": "Auth",
+        "isExtraImport": true,
+        "detail": "Auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "isExtraImport": true,
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "isExtraImport": true,
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "isExtraImport": true,
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "orm_models",
+        "importPath": "orm_class",
+        "description": "orm_class",
+        "isExtraImport": true,
+        "detail": "orm_class",
+        "documentation": {}
+    },
+    {
+        "label": "orm_models",
+        "importPath": "orm_class",
+        "description": "orm_class",
+        "isExtraImport": true,
+        "detail": "orm_class",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogs",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreateRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderCreateRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderUpdateRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderCreateRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderUpdateRequest",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberCreate",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberUpdate",
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderDetailResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FilePathResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberResponse",
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "isExtraImport": true,
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "Routers",
+        "description": "Routers",
+        "isExtraImport": true,
+        "detail": "Routers",
+        "documentation": {}
+    },
+    {
+        "label": "Folder_master",
+        "importPath": "Routers",
+        "description": "Routers",
+        "isExtraImport": true,
+        "detail": "Routers",
+        "documentation": {}
+    },
+    {
+        "label": "partnumber_master",
+        "importPath": "Routers",
+        "description": "Routers",
+        "isExtraImport": true,
+        "detail": "Routers",
+        "documentation": {}
+    },
+    {
+        "label": "document_master",
+        "importPath": "Routers",
+        "description": "Routers",
+        "isExtraImport": true,
+        "detail": "Routers",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "kind": 2,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "def verify_access_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl='auth')\n# SECRET_KEY\n# Algorithm\n# Expiration time\nSECRET_KEY = \"dad57a8def02292fb005eef6a0d2084864a62b2d6968619494e333905b038684\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "SECRET_KEY = \"dad57a8def02292fb005eef6a0d2084864a62b2d6968619494e333905b038684\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):\n    try:",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "Auth.oauth2",
+        "description": "Auth.oauth2",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "Auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "hash",
+        "kind": 2,
+        "importPath": "Auth.utils",
+        "description": "Auth.utils",
+        "peekOfCode": "def hash(password: str):\n    return pwd_context.hash(password)\n# compare the plain password and the hashed password\ndef verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "Auth.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify",
+        "kind": 2,
+        "importPath": "Auth.utils",
+        "description": "Auth.utils",
+        "peekOfCode": "def verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "Auth.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "Auth.utils",
+        "description": "Auth.utils",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# to hash the password\ndef hash(password: str):\n    return pwd_context.hash(password)\n# compare the plain password and the hashed password\ndef verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "Auth.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "def get_db():\n    try:\n        db = SessionLocal()  # Create a database session\n        yield db  # Use yield instead of return for context management in FastAPI\n    finally:\n        db.close()",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "settings = Settings()\n# Construct the SQLAlchemy database URL using settings\nSQLALCHEMY_DATABASE_URL = f\"postgresql://{settings.user}:{settings.password}@{settings.host}/{settings.database}\"\n# Create the SQLAlchemy engine\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\n# Create a configured \"Session\" class\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Create a Base class for our classes definitions\nBase = declarative_base()\ndef get_db():",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = f\"postgresql://{settings.user}:{settings.password}@{settings.host}/{settings.database}\"\n# Create the SQLAlchemy engine\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\n# Create a configured \"Session\" class\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Create a Base class for our classes definitions\nBase = declarative_base()\ndef get_db():\n    try:\n        db = SessionLocal()  # Create a database session",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\n# Create a configured \"Session\" class\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Create a Base class for our classes definitions\nBase = declarative_base()\ndef get_db():\n    try:\n        db = SessionLocal()  # Create a database session\n        yield db  # Use yield instead of return for context management in FastAPI\n    finally:",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Create a Base class for our classes definitions\nBase = declarative_base()\ndef get_db():\n    try:\n        db = SessionLocal()  # Create a database session\n        yield db  # Use yield instead of return for context management in FastAPI\n    finally:\n        db.close()",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "Database.db_setup",
+        "description": "Database.db_setup",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    try:\n        db = SessionLocal()  # Create a database session\n        yield db  # Use yield instead of return for context management in FastAPI\n    finally:\n        db.close()",
+        "detail": "Database.db_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "peekOfCode": "class Settings(BaseSettings):\n    \"\"\"Data model for configuration settings.\"\"\"\n    # Database provider (postgres, sqlite, etc.)\n    host_name: str\n    # Database user\n    user: str\n    # Database password for user\n    password: str\n    # Database host identifier\n    host: str",
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUser",
+        "kind": 6,
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "peekOfCode": "class CreateUser(BaseModel):\n    email: EmailStr\n    username: str\n    role: str\n    password: str\nclass TokenData(BaseModel):\n    username: str",
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: str",
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv_path",
+        "kind": 5,
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "peekOfCode": "dotenv_path = r\"D:\\siri\\codes\\pycharm\\projects\\Tata\\main\\configs\\.env\"\n# Load environment variables from the specified .env file\nload_dotenv(dotenv_path)\nclass Settings(BaseSettings):\n    \"\"\"Data model for configuration settings.\"\"\"\n    # Database provider (postgres, sqlite, etc.)\n    host_name: str\n    # Database user\n    user: str\n    # Database password for user",
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "orm_class.base_models",
+        "description": "orm_class.base_models",
+        "peekOfCode": "settings = Settings()\n# # Print the settings to verify they are loaded correctly\n# print(settings.host_name)  # Output: postgres\n# print(settings.user)       # Output: postgres\n# print(settings.password)   # Output: siri2251105\n# print(settings.host)       # Output: 172.18.100.240\n# print(settings.database)   # Output: sensor_data\n# LOGIN\nclass CreateUser(BaseModel):\n    email: EmailStr",
+        "detail": "orm_class.base_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumber",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class PartNumber(Base):\n    __tablename__ = 'part_number'\n    id = Column(Integer, primary_key=True)\n    part_number = Column(String, unique=True)\n    description = Column(String)\n    is_active = Column(Boolean)\n    inactive_date = Column(TIMESTAMP(timezone=False))\n    created_at = Column(TIMESTAMP(timezone=False), default=func.now())\n    updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())\n    documents = relationship('Document', back_populates='part_number')",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderMaster",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class FolderMaster(Base):\n    __tablename__ = 'folder_master'\n    id = Column(Integer, primary_key=True)\n    name = Column(String, unique=True)\n    description = Column(String)\n    requires_validity = Column(Boolean)\n    is_mandatory = Column(Boolean)\n    created_at = Column(TIMESTAMP(timezone=False), default=func.now())\n    updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())\n    parent_id = Column(Integer, ForeignKey('folder_master.id'), nullable=True)  # Allow NULL values",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class Document(Base):\n    __tablename__ = 'document'\n    id = Column(Integer, primary_key=True)\n    part_number_id = Column(Integer, ForeignKey('part_number.id'))\n    folder_id = Column(Integer, ForeignKey('folder_master.id'))\n    file_name = Column(String)\n    file_path = Column(String)\n    version = Column(Integer)\n    validity_date = Column(TIMESTAMP(timezone=False))\n    status = Column(String)",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentApproval",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class DocumentApproval(Base):\n    __tablename__ = 'document_approval'\n    id = Column(Integer, primary_key=True)\n    document_id = Column(Integer, ForeignKey('document.id'))\n    approver_id = Column(Integer, ForeignKey('user.id'))\n    status = Column(String)\n    comments = Column(String)\n    approval_date = Column(TIMESTAMP(timezone=False))\n    document = relationship('Document', back_populates='document_approvals')\n    approver = relationship('User', back_populates='document_approvals')",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'user'\n    id = Column(Integer, primary_key=True)\n    username = Column(String, unique=True)\n    email = Column(String, unique=True)\n    role = Column(String)\n    password = Column(String)  # Ensure the password field is included\n    created_at = Column(TIMESTAMP(timezone=False), default=func.now())\n    updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())\n    document_approvals = relationship('DocumentApproval', back_populates='approver')",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "Notification",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class Notification(Base):\n    __tablename__ = 'notification'\n    id = Column(Integer, primary_key=True)\n    user_id = Column(Integer, ForeignKey('user.id'))\n    type = Column(String)\n    message = Column(String)\n    is_read = Column(Boolean)\n    created_at = Column(TIMESTAMP(timezone=False), default=func.now())\n    user = relationship('User', back_populates='notifications')\nclass PartNumberDocument(Base):",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberDocument",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class PartNumberDocument(Base):\n    __tablename__ = 'part_number_document'\n    part_number_id = Column(Integer, ForeignKey('part_number.id'), primary_key=True)\n    document_id = Column(Integer, ForeignKey('document.id'), primary_key=True)\n    part_number = relationship('PartNumber', back_populates='part_number_documents')\n    document = relationship('Document', back_populates='part_number_documents')\nclass UserLogs(Base):\n    __tablename__ = 'user_logs'\n    id = Column(Integer, primary_key=True)\n    user_id = Column(Integer, ForeignKey('user.id'))",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogs",
+        "kind": 6,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "class UserLogs(Base):\n    __tablename__ = 'user_logs'\n    id = Column(Integer, primary_key=True)\n    user_id = Column(Integer, ForeignKey('user.id'))\n    username = Column(String)  # Add this field\n    email = Column(String)  # Add this field\n    login_timestamp = Column(TIMESTAMP(timezone=False), default=func.now())\n    user = relationship('User', back_populates='user_logs')",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "orm_class.orm_models",
+        "description": "orm_class.orm_models",
+        "peekOfCode": "Base = declarative_base()\nclass PartNumber(Base):\n    __tablename__ = 'part_number'\n    id = Column(Integer, primary_key=True)\n    part_number = Column(String, unique=True)\n    description = Column(String)\n    is_active = Column(Boolean)\n    inactive_date = Column(TIMESTAMP(timezone=False))\n    created_at = Column(TIMESTAMP(timezone=False), default=func.now())\n    updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())",
+        "detail": "orm_class.orm_models",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogs",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class UserLogs(BaseModel):\n    id: int\n    user_id: int\n    username: str\n    email: str\n    login_timestamp: datetime\n    # Include other fields as needed\n    class Config:\n        orm_mode = True\nclass FolderCreateRequest(BaseModel):",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderCreateRequest",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class FolderCreateRequest(BaseModel):\n    name: str\n    description: Optional[str] = None\n    requires_validity: Optional[bool] = False\n    is_mandatory: Optional[bool] = False\n    parent_id: Optional[int] = None\nclass FolderUpdateRequest(BaseModel):\n    name: Optional[str] = None\n    description: Optional[str] = None\n    requires_validity: bool",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderUpdateRequest",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class FolderUpdateRequest(BaseModel):\n    name: Optional[str] = None\n    description: Optional[str] = None\n    requires_validity: bool\n    is_mandatory: bool\n    class Config:\n        from_attributes = True\nclass PartNumberCreate(BaseModel):\n    part_number: str\n    description: Optional[str] = None",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberCreate",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class PartNumberCreate(BaseModel):\n    part_number: str\n    description: Optional[str] = None\n    is_active: bool\n    inactive_date: Optional[int] = None  # Epoch timestamp\n    def convert_inactive_date(self):\n        if self.inactive_date is not None:\n            return datetime.fromtimestamp(self.inactive_date)\n        return None\nclass PartNumberUpdate(BaseModel):",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberUpdate",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class PartNumberUpdate(BaseModel):\n    part_number: Optional[str] = None\n    description: Optional[str] = None\n    is_active: Optional[bool] = None\n    inactive_date: Optional[int] = None  # Epoch timestamp\n    def convert_inactive_date(self):\n        if self.inactive_date is not None:\n            return datetime.fromtimestamp(self.inactive_date)\n        return None\n    class Config:",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreateRequest",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class DocumentCreateRequest(BaseModel):\n    part_numbers: List[str]\n    folder_id: int\nclass PartNumberRequest(BaseModel):\n    part_numbers: List[str]",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberRequest",
+        "kind": 6,
+        "importPath": "pydantic_schema.request_body",
+        "description": "pydantic_schema.request_body",
+        "peekOfCode": "class PartNumberRequest(BaseModel):\n    part_numbers: List[str]",
+        "detail": "pydantic_schema.request_body",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "kind": 6,
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "peekOfCode": "class FolderResponse(BaseModel):\n    id: int\n    name: str\n    parent_id: Optional[int] = None\n    description: Optional[str] = None\n    requires_validity: bool\n    is_mandatory: bool\n    created_at: str  # Ensure this is a string in ISO format\n    updated_at: str  # Ensure this is a string in ISO format\n    class Config:",
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "PartNumberResponse",
+        "kind": 6,
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "peekOfCode": "class PartNumberResponse(BaseModel):\n    id: int\n    part_number: str\n    description: Optional[str] = None\n    is_active: bool\n    inactive_date: Optional[datetime] = None\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        from_attributes = True  # Use from_attributes instead of orm_mode in Pydantic V2",
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentResponse",
+        "kind": 6,
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "peekOfCode": "class DocumentResponse(BaseModel):\n    file_path: str\n    part_number_ids: List[int]\n    document_id: int\n    folder_id: int  # Add folder_id to the response model\n    part_numbers: List[str]  # Add part_numbers to the response model\nclass FilePathResponse(BaseModel):\n    file_path: str\n    class Config:\n        orm_mode = True",
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FilePathResponse",
+        "kind": 6,
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "peekOfCode": "class FilePathResponse(BaseModel):\n    file_path: str\n    class Config:\n        orm_mode = True\nclass FolderDetailResponse(BaseModel):\n    id: int\n    name: str\n    created_at: str\n    updated_at: str\n    file_paths: List[FilePathResponse]",
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "FolderDetailResponse",
+        "kind": 6,
+        "importPath": "pydantic_schema.respose_models",
+        "description": "pydantic_schema.respose_models",
+        "peekOfCode": "class FolderDetailResponse(BaseModel):\n    id: int\n    name: str\n    created_at: str\n    updated_at: str\n    file_paths: List[FilePathResponse]\n    class Config:\n        orm_mode = True",
+        "detail": "pydantic_schema.respose_models",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Routers.auth",
+        "description": "Routers.auth",
+        "peekOfCode": "def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = db.query(User).filter(User.username == user_credentials.username).first()\n    if not user or not utils.verify(user_credentials.password, user.password):\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail='Invalid credentials')\n    access_token = create_access_token(data={\"sub\": user.username})\n    log_entry = orm_models.UserLogs(\n        user_id=user.id,\n        username=user.username,\n        email=user.email\n    )",
+        "detail": "Routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "Routers.auth",
+        "description": "Routers.auth",
+        "peekOfCode": "def register_user(user: CreateUser, db: Session = Depends(get_db)):\n    # Check if email or username already exists\n    existing_user_email = db.query(User).filter(User.email == user.email).first()\n    existing_user_username = db.query(User).filter(User.username == user.username).first()\n    if existing_user_email:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Email already registered\")\n    if existing_user_username:\n        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=\"Username already exists\")\n    # Create new user instance\n    new_user = User(",
+        "detail": "Routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_logs",
+        "kind": 2,
+        "importPath": "Routers.auth",
+        "description": "Routers.auth",
+        "peekOfCode": "def get_user_logs(\n        start_time: int = Query(..., example=1690982400),  # epoch timestamp for start time\n        end_time: int = Query(..., example=1691664000),  # epoch timestamp for end time\n        db: Session = Depends(get_db)\n):\n    try:\n        # Convert epoch timestamps to datetime objects\n        start_timestamp = datetime.fromtimestamp(start_time)\n        end_timestamp = datetime.fromtimestamp(end_time)\n        print(start_timestamp, end_timestamp)",
+        "detail": "Routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Routers.auth",
+        "description": "Routers.auth",
+        "peekOfCode": "router = APIRouter(tags=['Signup/Login Handles'])\n@router.post('/auth')\ndef login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = db.query(User).filter(User.username == user_credentials.username).first()\n    if not user or not utils.verify(user_credentials.password, user.password):\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail='Invalid credentials')\n    access_token = create_access_token(data={\"sub\": user.username})\n    log_entry = orm_models.UserLogs(\n        user_id=user.id,\n        username=user.username,",
+        "detail": "Routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "build_full_path",
+        "kind": 2,
+        "importPath": "Routers.document_master",
+        "description": "Routers.document_master",
+        "peekOfCode": "def build_full_path(folder_id: int, db: Session) -> str:\n    # Recursively build the full path for the folder\n    folder = db.query(FolderMaster).filter(FolderMaster.id == folder_id).first()\n    if folder is None:\n        return \"\"\n    parent_path = build_full_path(folder.parent_id, db) if folder.parent_id else \"\"\n    return os.path.join(parent_path, folder.name)\n@router.post(\"/get-files/\")\ndef get_documents_by_part_numbers(request: PartNumberRequest, db: Session = Depends(get_db)):\n    part_numbers = request.part_numbers",
+        "detail": "Routers.document_master",
+        "documentation": {}
+    },
+    {
+        "label": "get_documents_by_part_numbers",
+        "kind": 2,
+        "importPath": "Routers.document_master",
+        "description": "Routers.document_master",
+        "peekOfCode": "def get_documents_by_part_numbers(request: PartNumberRequest, db: Session = Depends(get_db)):\n    part_numbers = request.part_numbers\n    # Query for all the specified part numbers\n    parts = db.query(PartNumber).filter(PartNumber.part_number.in_(part_numbers)).all()\n    if not parts:\n        raise HTTPException(status_code=404, detail=\"No part numbers found\")\n    # Get all part IDs\n    part_ids = [part.id for part in parts]\n    # Get the documents associated with all the part_number_ids\n    documents = db.query(Document, FolderMaster.name, PartNumber.part_number) \\",
+        "detail": "Routers.document_master",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Routers.document_master",
+        "description": "Routers.document_master",
+        "peekOfCode": "router = APIRouter(tags=['Document-Handles'])\n@router.post(\"/upload-file/\", response_model=List[DocumentResponse])\nasync def upload_file(\n        folder_id: int,\n        part_numbers: str,  # Expecting a comma-separated string of part numbers\n        file: UploadFile = File(...),\n        db: Session = Depends(get_db),\n):\n    # Validate folder ID\n    folder = db.query(FolderMaster).filter(FolderMaster.id == folder_id).first()",
+        "detail": "Routers.document_master",
+        "documentation": {}
+    },
+    {
+        "label": "create_folder",
+        "kind": 2,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "def create_folder(\n        folder: FolderCreateRequest,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    # Convert 0 to None for parent_id\n    parent_id = folder.parent_id if folder.parent_id != 0 else None\n    try:\n        # Retrieve the parent folder from the database",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "update_folder",
+        "kind": 2,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "def update_folder(\n        folder_name: str,\n        folder_update: FolderUpdateRequest,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    # Query folder by old name\n    db_folder = db.query(FolderMaster).filter(FolderMaster.name == folder_name).first()\n    if db_folder is None:",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "delete_folder",
+        "kind": 2,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "def delete_folder(\n        folder_name: str,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    # Query folder by name\n    db_folder = db.query(FolderMaster).filter(FolderMaster.name == folder_name).first()\n    if db_folder is None:\n        raise HTTPException(status_code=404, detail=\"Folder not found\")",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_folders",
+        "kind": 2,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "def get_all_folders(\n        db: Session = Depends(get_db)\n):\n    folders = db.query(FolderMaster).all()\n    # Convert datetime fields to ISO format strings\n    for folder in folders:\n        folder.created_at = folder.created_at.isoformat()\n        folder.updated_at = folder.updated_at.isoformat()\n    return folders\n@router.get(\"/getallfolderswithfiles/\", response_model=List[FolderDetailResponse])",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_folders_with_files",
+        "kind": 2,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "def get_all_folders_with_files(\n        db: Session = Depends(get_db)\n):\n    # Query all folders\n    folders = db.query(FolderMaster).all()\n    folder_details = []\n    for folder in folders:\n        # Get all documents for this folder\n        documents = db.query(Document).filter(Document.folder_id == folder.id).all()\n        # Extract file paths",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Routers.Folder_master",
+        "description": "Routers.Folder_master",
+        "peekOfCode": "router = APIRouter(tags=['Folder-Handles'])\n# def require_role(required_role: str, current_user: User):\n#     if current_user.role != required_role:\n#         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Insufficient permissions\")\n@router.post(\"/folders/\", response_model=FolderCreateRequest)\ndef create_folder(\n        folder: FolderCreateRequest,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):",
+        "detail": "Routers.Folder_master",
+        "documentation": {}
+    },
+    {
+        "label": "require_role",
+        "kind": 2,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "def require_role(required_role: str, current_user: User):\n    if current_user.role != required_role:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Insufficient permissions\")\n@router.post(\"/createpartnumbers/\", response_model=PartNumberResponse)\ndef create_part_number(\n        part_number: PartNumberCreate,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "create_part_number",
+        "kind": 2,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "def create_part_number(\n        part_number: PartNumberCreate,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    inactive_date = part_number.convert_inactive_date()\n    db_part_number = PartNumber(\n        part_number=part_number.part_number,\n        description=part_number.description,",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "update_part_number",
+        "kind": 2,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "def update_part_number(\n        part_number: str,\n        part_number_update: PartNumberUpdate,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user),\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    # Fetch the existing record\n    db_part_number = db.query(PartNumber).filter(PartNumber.part_number == part_number).first()\n    if db_part_number is None:",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "delete_part_number",
+        "kind": 2,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "def delete_part_number(\n        part_number: str,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):\n    # require_role(\"admin\", current_user)  # Check if the user has admin scope\n    # Query folder by name\n    db_folder = db.query(PartNumber).filter(PartNumber.part_number == part_number).first()\n    if db_folder is None:\n        raise HTTPException(status_code=404, detail=\"Folder not found\")",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_part_numbers",
+        "kind": 2,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "def get_all_part_numbers(\n        db: Session = Depends(get_db)\n):\n    folders = db.query(PartNumber).all()\n    # Convert datetime fields to ISO format strings\n    for folder in folders:\n        folder.created_at = folder.created_at.isoformat()\n        folder.updated_at = folder.updated_at.isoformat()\n    return folders",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Routers.partnumber_master",
+        "description": "Routers.partnumber_master",
+        "peekOfCode": "router = APIRouter(tags=['PartNumber-Handles'])\ndef require_role(required_role: str, current_user: User):\n    if current_user.role != required_role:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Insufficient permissions\")\n@router.post(\"/createpartnumbers/\", response_model=PartNumberResponse)\ndef create_part_number(\n        part_number: PartNumberCreate,\n        db: Session = Depends(get_db),\n        # current_user: User = Depends(get_current_user)\n):",
+        "detail": "Routers.partnumber_master",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "venv.Scripts.jp",
+        "description": "venv.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "venv.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\n# Enable debugging\napp.debug = True\n# Create all tables\norm_models.Base.metadata.create_all(bind=engine)\n# Configure CORS settings\norigins = [\"*\"]  # Replace \"*\" with the specific allowed origins\n# Configure CORS\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app.debug",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app.debug = True\n# Create all tables\norm_models.Base.metadata.create_all(bind=engine)\n# Configure CORS settings\norigins = [\"*\"]  # Replace \"*\" with the specific allowed origins\n# Configure CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "origins = [\"*\"]  # Replace \"*\" with the specific allowed origins\n# Configure CORS\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(auth.router)",
+        "detail": "main",
+        "documentation": {}
+    }
+]

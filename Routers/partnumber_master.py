@@ -22,9 +22,9 @@ def require_role(required_role: str, current_user: User):
 def create_part_number(
         part_number: PartNumberCreate,
         db: Session = Depends(get_db),
-        current_user: User = Depends(get_current_user)
+        # current_user: User = Depends(get_current_user)
 ):
-    require_role("admin", current_user)  # Check if the user has admin scope
+    # require_role("admin", current_user)  # Check if the user has admin scope
     inactive_date = part_number.convert_inactive_date()
 
     db_part_number = PartNumber(
@@ -45,10 +45,10 @@ def update_part_number(
         part_number: str,
         part_number_update: PartNumberUpdate,
         db: Session = Depends(get_db),
-        current_user: User = Depends(get_current_user),
+        # current_user: User = Depends(get_current_user),
 
 ):
-    require_role("admin", current_user)  # Check if the user has admin scope
+    # require_role("admin", current_user)  # Check if the user has admin scope
     # Fetch the existing record
     db_part_number = db.query(PartNumber).filter(PartNumber.part_number == part_number).first()
 
@@ -74,9 +74,9 @@ def update_part_number(
 def delete_part_number(
         part_number: str,
         db: Session = Depends(get_db),
-        current_user: User = Depends(get_current_user)
+        # current_user: User = Depends(get_current_user)
 ):
-    require_role("admin", current_user)  # Check if the user has admin scope
+    # require_role("admin", current_user)  # Check if the user has admin scope
 
     # Query folder by name
     db_folder = db.query(PartNumber).filter(PartNumber.part_number == part_number).first()

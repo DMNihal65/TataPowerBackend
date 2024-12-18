@@ -32,6 +32,9 @@ class FolderMaster(Base):
     created_at = Column(TIMESTAMP(timezone=False), default=func.now())
     updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())
 
+    parent_id = Column(Integer, ForeignKey('folder_master.id'), nullable=True)  # Allow NULL values
+    parent = relationship('FolderMaster', remote_side=[id], backref='children')
+
     documents = relationship('Document', back_populates='folder')
 
 
