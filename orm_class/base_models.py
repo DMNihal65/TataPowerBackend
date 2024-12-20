@@ -15,22 +15,11 @@ load_dotenv(dotenv_path)
 
 
 class Settings(BaseSettings):
-    """Data model for configuration settings."""
-
-    # Database provider (postgres, sqlite, etc.)
-    host_name: str
-
-    # Database user
-    user: str
-
-    # Database password for user
-    password: str
-
-    # Database host identifier
-    host: str
-
-    # Database name (within postgresql)
-    database: str
+    host_name: str = "default_host"
+    user: str = "postgres"
+    password: str = "siri2251105"
+    host: str = "172.18.100.88"
+    database: str = "Tata_Power"
 
 
 settings = Settings()

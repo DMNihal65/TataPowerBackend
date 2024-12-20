@@ -10,8 +10,27 @@ from orm_class.orm_models import Document, FolderMaster, PartNumber
 from pydantic_schema.request_body import DocumentCreateRequest, PartNumberRequest
 from pydantic_schema.respose_models import DocumentResponse
 
+from minio import Minio
+from minio.error import S3Error
+
+from io import BytesIO
+
+import pyclamd
+
+
 router = APIRouter(tags=['Document-Handles'])
 
+MINIO_URL = "127.0.0.1:9000" 
+MINIO_ACCESS_KEY = "minioadmin" 
+MINIO_SECRET_KEY = "minioadmin"  
+BUCKET_NAME = "tatapower"
+
+minio_client = Minio(
+    MINIO_URL,
+    access_key=MINIO_ACCESS_KEY,
+    secret_key=MINIO_SECRET_KEY,
+    secure=False,  # Set to True if using HTTPS
+)
 
 @router.post("/upload-file/", response_model=List[DocumentResponse])
 async def upload_file(
@@ -26,16 +45,44 @@ async def upload_file(
         raise HTTPException(status_code=404, detail="Folder not found")
 
     # Create folder path
-    base_path = "D:\\siri\\codes\\pycharm\\projects\\Tata\\main\\Folders"
-    folder_path = os.path.join(base_path, build_full_path(folder_id, db))
+    folder_path = build_full_path(folder_id, db)
 
-    # Ensure folder exists
-    os.makedirs(folder_path, exist_ok=True)
+    file_content = await file.read()  # Read the file content into memory
+    file_size = len(file_content)  # Get the size of the file
 
-    # Save the uploaded file
-    file_path = os.path.join(folder_path, file.filename)
-    with open(file_path, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
+    # Initialize ClamAV
+    # try:
+    #     clam = pyclamd.ClamdNetworkSocket(host='127.0.0.1', port=3310)
+    #     if not clam.ping():
+    #         raise HTTPException(status_code=500, detail="ClamAV service is not running.")
+    # except pyclamd.ConnectionError:
+    #     raise HTTPException(status_code=500, detail="Unable to connect to ClamAV.")
+
+    # # Scan the file for viruses
+    # scan_result = clam.scan_stream(file_content)
+
+    # if scan_result:
+    #     raise HTTPException(status_code=400, detail="The file is infected with a virus: " + str(scan_result))
+
+    try:
+        # Generate a unique file name (you can use timestamp or UUID to avoid conflicts)
+        file_name = f"{folder_path}/{file.filename}".replace("\\", "/")
+
+        # Upload the file to the MinIO bucket
+        minio_client.put_object(
+            BUCKET_NAME, 
+            file_name, 
+            BytesIO(file_content),  # Wrap the file content in a BytesIO stream
+            file_size,  # Pass the length of the file
+            content_type=file.content_type , # Pass the content type (MIME type)
+            metadata={"x-amz-meta-partnumber": (part_numbers)}  # Add custom metadata for multiple part numbers
+        )
+
+        # Generate the URL to the uploaded file (in MinIO, this would be the access point to the file)
+        file_url = f"http://{MINIO_URL}/{BUCKET_NAME}/{file_name}"
+        
+    except S3Error as e:
+        raise HTTPException(status_code=500, detail="Error uploading file: " + str(e))
 
     # Split part numbers string into list
     part_number_list = [pn.strip() for pn in part_numbers.split(",")]
@@ -66,7 +113,7 @@ async def upload_file(
         new_document = Document(
             folder_id=folder_id,
             file_name=file.filename,
-            file_path=file_path,
+            file_path=file_url,
             version=1,
             validity_date=None,  # Set as needed
             status="uploaded",  # Set as needed
@@ -79,7 +126,7 @@ async def upload_file(
 
         # Collect the response for each document
         responses.append(DocumentResponse(
-            file_path=file_path,
+            file_path=file_url,
             part_number_ids=[part_number_id],
             document_id=new_document.id,
             folder_id=folder_id,
@@ -111,26 +158,24 @@ def get_documents_by_part_numbers(request: PartNumberRequest, db: Session = Depe
 
     # Get all part IDs
     part_ids = [part.id for part in parts]
+    
+    response = {}
 
-    # Get the documents associated with all the part_number_ids
-    documents = db.query(Document, FolderMaster.name, PartNumber.part_number) \
-        .join(FolderMaster, Document.folder_id == FolderMaster.id) \
-        .join(PartNumber, Document.part_number_id == PartNumber.id) \
-        .filter(Document.part_number_id.in_(part_ids)) \
-        .all()
+    for part_id in part_ids:
+        documents = (
+            db.query(Document)
+            .filter(Document.part_number_id == part_id)
+            .all()
+        )
 
-    if not documents:
+        if documents:
+            # Add part_id as a key in the response and map its associated documents
+            response[part_id] = [
+                {"file_name": doc.file_name, "file_path": doc.file_path}
+                for doc in documents
+            ]
+
+    if not response:
         raise HTTPException(status_code=404, detail="No documents found for these part numbers")
-
-    # Prepare the response
-    response = [
-        {
-            "folder_name": folder_name,
-            "part_number": part_number,
-            "file_name": document.file_name,
-            "file_path": os.path.normpath(r"\SDC-2\Tata" + document.file_path.split("Tata")[1])
-        }
-        for document, folder_name, part_number in documents
-    ]
 
     return response
