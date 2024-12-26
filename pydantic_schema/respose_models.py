@@ -40,6 +40,7 @@ class DocumentResponse(BaseModel):
     part_numbers: List[str]  # Add part_numbers to the response model
 
 class FilePathResponse(BaseModel):
+    file_name: str
     file_path: str
 
     class Config:
@@ -47,10 +48,15 @@ class FilePathResponse(BaseModel):
 
 class FolderDetailResponse(BaseModel):
     id: int
+    parent_id: Optional[int] 
     name: str
     created_at: str
     updated_at: str
-    file_paths: List[FilePathResponse]
+    file_name: List[FilePathResponse]
 
     class Config:
         orm_mode = True
+
+class DocumentStatusRequest(BaseModel):
+    document_id: int
+    status: str  # Expected values: "approved" or "rejected"

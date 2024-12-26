@@ -203,16 +203,23 @@ def get_all_folders_with_files(
         # Get all documents for this folder
         documents = db.query(Document).filter(Document.folder_id == folder.id).all()
 
-        # Extract file paths
-        file_paths = [FilePathResponse(file_path=doc.file_path) for doc in documents]
+        # Extract unique file names and their paths
+        file_details = {(doc.file_name, doc.file_path) for doc in documents}  # Use a set for uniqueness
+
+        # Convert the set to a list of FilePathResponse
+        file_name_responses = [
+            FilePathResponse(file_name=file_name, file_path=file_path)
+            for file_name, file_path in file_details
+        ]
 
         # Append folder details with file paths
         folder_details.append(FolderDetailResponse(
             id=folder.id,
+            parent_id=folder.parent_id,
             name=folder.name,
             created_at=folder.created_at.isoformat(),
             updated_at=folder.updated_at.isoformat(),
-            file_paths=file_paths
+            file_name=file_name_responses
         ))
 
     return folder_details

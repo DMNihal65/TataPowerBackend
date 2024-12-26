@@ -63,13 +63,10 @@ class DocumentApproval(Base):
 
     id = Column(Integer, primary_key=True)
     document_id = Column(Integer, ForeignKey('document.id'))
-    approver_id = Column(Integer, ForeignKey('user.id'))
     status = Column(String)
-    comments = Column(String)
     approval_date = Column(TIMESTAMP(timezone=False))
 
     document = relationship('Document', back_populates='document_approvals')
-    approver = relationship('User', back_populates='document_approvals')
 
 
 class User(Base):
@@ -83,7 +80,6 @@ class User(Base):
     created_at = Column(TIMESTAMP(timezone=False), default=func.now())
     updated_at = Column(TIMESTAMP(timezone=False), default=func.now(), onupdate=func.now())
 
-    document_approvals = relationship('DocumentApproval', back_populates='approver')
     notifications = relationship('Notification', back_populates='user')
     user_logs = relationship('UserLogs', back_populates='user')
 
