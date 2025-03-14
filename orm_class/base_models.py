@@ -34,7 +34,6 @@ settings = Settings()
 
 # LOGIN
 class CreateUser(BaseModel):
-    email: EmailStr
     username: str
     role: str
     password: str

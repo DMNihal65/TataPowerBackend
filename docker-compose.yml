@@ -1,18 +1,36 @@
-version: "3"
+
 services:
-  api:
+  tata_power_fastapi:
     build: .
+    container_name: tata_power_fastapi
+    restart: always
     ports:
-    - 7001:7001
-
+      - "7001:7001"
     environment:
-      - DATABASE_HOSTNAME=postgres
-      - DATABASE_PORT=5432
-      - DATABASE_PASSWORD=siri2251105
-      - DATABASE_NAME=Tata_Power
-      - DATABASE_USERNAME=postgres
-      - SECRET_KEY="09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
-      - ALGORITHM="HS256"
-      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - DATABASE_URL=postgresql://postgres:postgres@172.18.7.91:5432/Tata_Power
+    volumes:
+      - ./app:/app
+    networks:
+      - app-network
+  
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - app-network
 
+networks:
+  app-network:
+    driver: bridge
 
+volumes:
+  minio_data:

@@ -7,7 +7,6 @@ class UserLogs(BaseModel):
     id: int
     user_id: int
     username: str
-    email: str
     login_timestamp: datetime
 
     # Include other fields as needed
@@ -19,9 +18,8 @@ class UserLogs(BaseModel):
 class FolderCreateRequest(BaseModel):
     name: str
     description: Optional[str] = None
-    requires_validity: Optional[bool] = False
-    is_mandatory: Optional[bool] = False
     parent_id: Optional[int] = None
+    plant: str
 
 
 class FolderUpdateRequest(BaseModel):
@@ -39,6 +37,7 @@ class PartNumberCreate(BaseModel):
     description: Optional[str] = None
     is_active: bool
     inactive_date: Optional[int] = None  # Epoch timestamp
+    plant: str
 
     def convert_inactive_date(self):
         if self.inactive_date is not None:
@@ -72,3 +71,10 @@ class DocumentCreateRequest(BaseModel):
 
 class PartNumberRequest(BaseModel):
     part_numbers: List[str]
+
+class UpdateValidityRequest(BaseModel):
+    file_name: str
+    part_numbers: List[str]
+    validity_date: str  # Keeping as string for now
+    plant: str
+

@@ -1,7 +1,7 @@
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 
-from fastapi import APIRouter, Depends, status, HTTPException, Response, Query
+from fastapi import APIRouter, Depends, Form, status, HTTPException, Response, Query
 from fastapi.security.oauth2 import OAuth2PasswordRequestForm
 from sqlalchemy import func, and_
 from sqlalchemy.orm import Session
@@ -17,33 +17,47 @@ from pydantic_schema.request_body import UserLogs
 router = APIRouter(tags=['Signup/Login Handles'])
 
 
-@router.post('/auth')
-def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-    user = db.query(User).filter(User.username == user_credentials.username).first()
-    if not user or not utils.verify(user_credentials.password, user.password):
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail='Invalid credentials')
+
+@router.post("/auth")
+def login(
+    username: str = Form(...),
+    password: str = Form(...),
+    role: str = Form(...),
+    plant: Optional[str] = Form(None),
+    db: Session = Depends(get_db)
+):
+    # Rest of the function remains the same
+    user = db.query(User).filter(
+        User.username == username,
+        User.password == password,
+        User.role == role,
+        User.plant == plant
+    ).first()
+
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid credentials")
 
     access_token = create_access_token(data={"sub": user.username})
+    user_role = user.role
 
     log_entry = orm_models.UserLogs(
         user_id=user.id,
         username=user.username,
-        email=user.email
     )
     db.add(log_entry)
     db.commit()
 
-    return {"access_token": access_token, "token_type": "bearer"}
-
+    return {
+        "access_token": access_token,
+        "token_type": "bearer",
+        "role": user_role,
+        "plant": user.plant
+    }
 
 @router.post('/register', status_code=status.HTTP_201_CREATED)
 def register_user(user: CreateUser, db: Session = Depends(get_db)):
-    # Check if email or username already exists
-    existing_user_email = db.query(User).filter(User.email == user.email).first()
-    existing_user_username = db.query(User).filter(User.username == user.username).first()
 
-    if existing_user_email:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered")
+    existing_user_username = db.query(User).filter(User.username == user.username).first()
 
     if existing_user_username:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username already exists")
@@ -51,13 +65,11 @@ def register_user(user: CreateUser, db: Session = Depends(get_db)):
     # Create new user instance
     new_user = User(
         username=user.username,
-        email=user.email,
         role=user.role,
         created_at=datetime.utcnow(),  # Optional: Set created_at explicitly if needed
         updated_at=datetime.utcnow()  # Optional: Set updated_at explicitly if needed
     )
-    hashed_password = utils.hash(user.password)
-    new_user.password = hashed_password
+    new_user.password = user.password
 
     # Add the new user to the database
     db.add(new_user)
@@ -65,7 +77,7 @@ def register_user(user: CreateUser, db: Session = Depends(get_db)):
     db.refresh(new_user)
 
     return {"message": "User registered successfully",
-            "user": {"username": new_user.username, "email": new_user.email, "role": new_user.role}}
+            "user": {"username": new_user.username, "role": new_user.role}}
 
 
 @router.get('/user-logs', response_model=List[UserLogs])

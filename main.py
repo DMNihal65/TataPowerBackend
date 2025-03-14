@@ -32,4 +32,6 @@ app.include_router(Folder_master.router)
 app.include_router(partnumber_master.router)
 app.include_router(document_master.router)
 
-# uvicorn main:app --reload --host 172.18.100.88 --port 7001
+# uvicorn main:app --reload --host 192.168.137.161 --port 7001
+# uvicorn main:app --reload --host 192.168.137.161 --port 7001  
+# uvicorn main:app --reload --port 7001

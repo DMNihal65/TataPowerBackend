@@ -1,20 +1,18 @@
-FROM python:3.10.0
+FROM python:3.12.1
 
+# Set the working directory inside the container
+WORKDIR /backend/TataPowerBackend
 
 COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Add this environment variable to see Python print statements immediately
+ENV PYTHONUNBUFFERED=1
+
 COPY . .
 
-ENV HOST_NAME="postgres"
+EXPOSE 7001
 
-ENV USER="postgres"
-
-ENV PASSWORD="siri2251105"
-
-ENV HOST="172.18.100.54"
-
-ENV DATABASE="Tata_Power"
-
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "6969"]
+# Modified command to print environment variables before starting
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7001"]
